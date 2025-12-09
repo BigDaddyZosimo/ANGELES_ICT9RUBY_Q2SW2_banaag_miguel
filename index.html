@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>zee runit</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+  <style>
+    .circle {
+  border-radius: 50%;
+  object-fit: cover;
+}
+ body {
+      background-image: url("ohhhhh.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    .panel {
+  background:#fff; padding:20px; border-radius:12px;
+  max-width:900px; margin:auto; margin-top: 40px; display:flex; gap:20px;
+}
+
+.left, .right { flex:1; }
+
+table { width:100%; border-collapse:collapse; text-align:center; }
+th { background:#f2f2f2; padding:8px; }
+td { border-top:1px solid #ddd; padding:7px; }
+
+input, textarea {
+  width:100%; margin:6px 0; padding:8px;
+  border:1px solid #ccc; border-radius:5px;
+}
+
+button {
+  width:100%; padding:10px; margin-top:5px;
+  background:#4e78db; color:#fff; border:none; border-radius:5px;
+}
+</style>
+  
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark navbar bg-dark">
+    <div class="container-fluid">
+     <a class="navbar-brand" href="#"><img class="circle" src="obmclogo.png" alt="logo" height="50px" width="50px" br="50%"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+     </button>
+   <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar- nav me-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="contactus.html" target="_self" style="font-weight: bold; color: white;"> CONTACT US </a>
+
+        </li>
+    </ul>
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+   </div>
+ </div>
+</nav>
+<div class="panel">
+
+  <div class="left">
+    <h3>Office Schedule</h3>
+    <table>
+      <tr><th>Day</th><th>Hours</th><th>Dept</th></tr>
+      <tr><td>Mon</td><td>8–4</td><td>Registrar</td></tr>
+      <tr><td>Tue</td><td>8–4</td><td>Cashier</td></tr>
+      <tr><td>Wed</td><td>8–4</td><td>Marketing</td></tr>
+      <tr><td>Thu</td><td>8–4</td><td>Guidance</td></tr>
+      <tr><td>Fri</td><td>8–3</td><td>Admin</td></tr>
+    </table>
+  </div>
+
+  <div class="right">
+    <h3>Contact Us</h3>
+    <input placeholder="Full Name">
+    <input placeholder="Email">
+    <input placeholder="Subject">
+    <textarea placeholder="Message"></textarea>
+    <button>Send</button>
+  </div>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+</html>
